@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Gebrochen Haus 7
+  m_Shader: {fileID: 4800000, guid: 0826033acb104e546b28eb1f076ed8d3, type: 3}
+  m_ShaderKeywords: _INDIRECT_DIFFUSE_CHECK_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BotTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b644a97013e18fa48b505324d42f935f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MidTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: db8479777fe732948833219c474da51f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SnowNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 810a67926d12de34a9d2ef7789843322, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snowdiff:
+        m_Texture: {fileID: 2800000, guid: 48ff31628936ae74f9fc0b4566163642, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TopTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _CartoonLightDown: 0
+    - _CartoonLightUp: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DiffuseHardness: 1
+    - _DiffuseIntensity: 0
+    - _DstBlend: 0
+    - _EnvIntensity: 1
+    - _EnvLevel: 1
+    - _FallOff: 8
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IndirectDiffuseCheck: 1
+    - _IndirectDiffuseCheckValue: 0
+    - _LightMapIntensity: 1
+    - _MetalShininess: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Outline: 1.5
+    - _OutlineWidth: 1
+    - _Parallax: 0.02
+    - _Roughness: 0
+    - _ShadowStrength: 0.8
+    - _SmoothnessTextureChannel: 0
+    - _SnowNoiseScale: 0.347
+    - _SnowNormalDown: -0.44
+    - _SnowNormalUp: 1
+    - _SnowPowerValue: 1.17
+    - _SpecCheck: 0
+    - _SpecShininess: 10
+    - _SpecularHighlights: 1
+    - _SpecularScale: 0
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _Step: 1
+    - _ToonEffect: 0
+    - _TranslucencyViewDependency: 0.7
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AmbientColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+    - _Color: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 1}
+    - _DiffColor: {r: 0.52954787, g: 0.5466824, b: 0.6415094, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SnowNoiseTilling: {r: 1, g: 1, b: 1, a: 1}
+    - _SnowTilling: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
