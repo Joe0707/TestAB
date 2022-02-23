@@ -214,7 +214,9 @@ public class BuildWindow : EditorWindow
 
         if (GUILayout.Button("一键打包"))
         {
+            var time = System.DateTime.Now;
             BuildPlayer();
+            Debug.Log("花费时间" + (System.DateTime.Now - time).TotalSeconds);
             // Debug.Log("导出工程 = " + mExportProject);
         }
     }
@@ -904,8 +906,8 @@ public class BuildWindow : EditorWindow
             dir.MoveTo(abPath);
         }
 
-        //刷新资源
-        AssetDatabase.Refresh();
+        // //刷新资源
+        // AssetDatabase.Refresh();
 
     }
 

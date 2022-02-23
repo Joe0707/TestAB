@@ -499,7 +499,7 @@ namespace HotfixFrame.Editor.Asset
                 if (ai)
                 {
                     //记录下来Meta文件内容 Unity打ab包后会修改Meta 打包后再改回来
-                    CacheMetaFile(key);
+                    CacheMetaFile(key + ".meta");
                     ai.SetAssetBundleNameAndVariant(abname, "");
                 }
                 else
@@ -959,8 +959,11 @@ namespace HotfixFrame.Editor.Asset
         {
             if (AssetMetaContentCacheMap.ContainsKey(path) == false)
             {
-                var content = File.ReadAllText(path);
-                AssetMetaContentCacheMap[path] = content;
+                if (File.Exists(path))
+                {
+                    var content = File.ReadAllText(path);
+                    AssetMetaContentCacheMap[path] = content;
+                }
             }
             else
             {

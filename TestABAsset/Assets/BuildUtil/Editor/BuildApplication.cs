@@ -6,9 +6,9 @@ public class BuildApplication
     // public static string mActorsABPath = "/ABPackage/ABTest/Actor/";
     // public static string mEquipmentsABPath = "/ABPackage/ABTest/Equipment/";
     //打包用的ab文件夹路径
-    public static string[] mABPaths = { /*"/ABPackage/ABTest/UI/",*//* "/ABPackage/ABTest/Atlas/",  "/ABPackage/ABTest/Xml/", "/ABPackage/ABTest/Data/", */"/ABPackage/ABTest/Actor/", "/ABPackage/ABTest/Equipment/" };
+    public static string[] mABPaths = { /*"/ABPackage/ABTest/UI/",*//* "/ABPackage/ABTest/Atlas/",  "/ABPackage/ABTest/Xml/", "/ABPackage/ABTest/Data/",*/  "/ABPackage/ABTest/Actor/", "/ABPackage/ABTest/Equipment/" };
     //需要打包的Resources文件夹路径
-    public static string[] mResourcePaths = { /*"/Resources/UI/",*/ /*"/Resources/Atlas/",  "/LRS-BN-Common/Resources/Xml/", "/Resources/Data/", */"/Resources/Actor/", "/Resources/Equipment/" };
+    public static string[] mResourcePaths = { /*"/Resources/UI/",*/ /*"/Resources/Atlas/",  "/LRS-BN-Common/Resources/Xml/", "/Resources/Data/",*/ "/Resources/Actor/", "/Resources/Equipment/" };
     public static string mOutputABPath = "";
 
     public static void Init()
